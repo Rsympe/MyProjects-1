@@ -1,0 +1,40 @@
+  .druck td{
+
+	padding: 15px;
+}
+
+.druck .gra td{
+
+	font-weight: bold;
+	font-size: 18px;
+	color:white;
+}
+
+.druck .gra {
+
+	background-color: #202020;
+}
+
+.druck .betrag td{
+
+	font-weight: bold;
+	background-color:  	#BEBEBE;
+	
+
+}
+.druck .date td{
+
+	font-weight: bolder;
+}
+
+.druck .date td input{
+
+	padding: 6px;
+	width: 48%;
+}
+
+.button{
+	position: relative;
+	top: 50%;
+	left: 86%;
+}

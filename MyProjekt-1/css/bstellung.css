@@ -1,0 +1,64 @@
+    .bestell{
+	border:5px double black;
+	padding: 36px;
+	width: 94%;
+}
+
+
+.bestell label{
+
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.bestell input{
+
+	padding: 10px;
+	width: 30%;
+}
+
+.bestell input.schuhnr{
+	width:1%;
+}
+
+.bestell input.menge{
+	width:33%;
+}
+
+.bestell input.preis{
+	width:31%;
+}
+
+.bestell input.datum{
+	width:33%;
+}
+
+.bestell input.betrag{
+	width:32%;
+}
+
+.bestell input.straße{
+	width:10%;
+}
+
+.bestell input.hausnr{
+	width:2%;
+}
+
+.bestell input.plz{
+	width:3%;
+}
+
+.bestell input.ort{
+	width:7%;
+}
+
+
+
+.bestell button{
+
+	padding: 10px;
+	width: 40%;
+	font-size: 15px;
+	font-weight: bolder;
+}

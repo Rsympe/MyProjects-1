@@ -1,0 +1,121 @@
+.sform{
+	padding: 20px 20px;
+	width:100%;
+	font-size:16px;
+	box-sizing: border-box;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	left: 30%;
+	top:50%;
+	
+
+}
+   body{
+   	 background:azure;
+   }
+
+div.formular{
+	margin:0px -400px;
+	padding: 0px 200px;
+	width: 55%;
+	
+
+}
+
+.gform p{
+	padding: 0px 12px;
+}
+
+div.titled{
+	padding: 10px 0px;
+}
+
+p.h1{
+	font-size: 28px;
+}
+
+.formular label p{
+	font-size: 20px;
+
+}
+
+.formular input{
+	border-radius: 5px;
+  	width: 100%;
+ 	height: 30px;
+ 	border:none;
+  	padding: 7px
+}
+
+.formular input.strasse[type=text]{
+	width:40%;
+	margin: 0px 26px;
+}
+
+
+.formular input.hausnr[type=text]{
+	width:6%;
+	margin: 0px 12px;
+}
+.formular input.plz[type=text]{
+	width:7%;
+	margin: 0px 10px;
+}
+.formular input.ort[type=text]{
+	width:30%;
+}
+
+.formular input.indik[type=text]{
+	width:18%;
+	margin: 0px 5px;
+}
+
+.formular input.num[type=tel]{
+	width:70%;
+}
+
+.formular input.name[type=text]{
+	width:96%;
+	margin: 0px 10px;
+
+}
+
+
+.formular input.name[type=email]{
+	width:96%;
+	margin: 0px 10px;
+}
+
+
+.formular input.pass[type=password]{
+	width:96%;
+	margin: 0px 10px;
+}
+
+.formular input.check[type=checkbox]{
+	width:10%;
+	margin: 0px -15px;
+
+}
+
+.formular label.mss{
+	display: inline-block;
+}
+
+.btn[type=submit]{
+	width:98%;
+	margin: 0px 10px;
+	background-color: #6060B9;
+	text-transform: uppercase;
+	border:none;
+	color:white;
+	font-size:15.5px;
+	font-weight:bold;
+	border-radius: 5px;
+}
+
+.btn [type="submit"]:focus,
+.btn[type="submit"]:hover {
+    background-color: #47478C;
+}

@@ -1,0 +1,237 @@
+
+.admin1{
+	padding: 0.1px;
+	margin: 0;
+	background-color: #f0be60;
+}
+
+.admin1 img{
+	vertical-align: top;
+}
+
+.admin1 h1{
+	display: inline-block;
+}
+
+.admin1 .logout{
+	float: right;
+	margin: 5px 120px;
+	padding: 10px;
+	border:1px solid rgba(0, 0, 0, 0.64);
+	text-transform: uppercase;
+	height: 32px;
+	background-color:rgba(204, 204, 204, 0.48); 
+
+}
+
+.logout a{
+	text-decoration: none;
+	font-size: 17px;
+	color:rgba(48, 48, 48, 0.92);
+}
+
+.admin1 .logout:hover{
+	background-color: rgba(207, 207, 207, 0.92);
+}
+
+
+
+
+.admin{
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+
+div.champ{
+	background-color:rgba(158, 158, 158, 0.52);
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.64);
+	border-right: none;
+	border-left: none;
+
+	
+
+}
+
+
+.champ li{
+	list-style-type: none;
+	margin: 0px 1px 0 0;
+	padding:5px 5px;
+	height: 45px;
+	background-color: rgba(133, 133, 133, 0.52);
+	border: 1px solid rgba(0, 0, 0, 0.64);
+	display: inline-block;
+
+}
+
+
+.champ img{
+	vertical-align: top;
+}
+
+.champ ul{
+	padding: 2px;
+	margin: 0;
+
+}
+
+.champ li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:14px;
+	padding: 0px;
+}
+
+.champ li:hover{
+	background-color: #f0be60;
+	transition: .3s;
+
+}
+
+div.anlegen{
+	background-color: rgba(158, 158, 158, 0.52);
+	border: 1px solid black;
+	width: 500px;
+	margin: 20px 0px;
+	position: relative;
+	left: 35%;
+	padding: 20px 10px;
+}
+
+.anlegen .form{
+	border: 1px solid black;
+	width: 480px;
+	padding: 10px 10px;
+
+}
+
+.anlegen input{
+	width: 460px;
+	padding: 10px;
+}
+
+.anlegen select{
+	width: 485px;
+	padding: 10px;
+}
+
+.anlegen button{
+	width: 400px;
+	border:1px solid;
+
+}
+
+.anlegen p{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.anlegen button:hover{
+	background-color: #f0be60;
+	transition: .3s;
+}
+
+table.table{
+	position: relative;
+	left:10%;
+
+	 
+}
+
+table.table, tr,  td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table.table tr th{
+	background-color: rgba(133, 133, 133, 0.52);
+	padding: 10px;
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+
+
+
+.table p{
+	
+	padding: 0px 7px;
+
+}
+
+.table td img:hover{
+	width: 38px;
+	height: 38px;
+}
+
+ tr:hover{
+	background-color: #D3D3D3;
+}
+
+button.btn10{
+
+	padding: 10px;
+}
+
+button.btn10:hover{
+
+	background-color: #e3cf88 ; 
+}
+
+@media screen and (max-width: 1520px){
+	div.anlegen{
+	
+	width: 35%;
+
+	}
+
+	div.anlegen .form{
+		width: 92%;
+	}
+
+	div.anlegen input{
+
+		width: 93%;
+	}
+
+
+	div.anlegen button{
+
+		width: 90%;
+	}
+
+
+	div.anlegen select{
+
+		width: 97.5%;
+	}
+
+
+	table.table{
+		position: relative;
+		left: 5%;
+		width: 500px;
+
+	}
+
+	.table td.td{
+		width: 300px;
+	}
+
+	
+
+	.admin1 .logout{
+		float: none;
+	 
+
+}
+
+
+}

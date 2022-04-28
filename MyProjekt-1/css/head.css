@@ -1,0 +1,69 @@
+ *{
+  
+ }
+
+ h1{ color:blue; 
+     font-family: courier new;
+    float:left;
+  margin-left :10px
+  font-weight:bold;
+       }
+h3{
+   font-size :40px;
+    color: red; 
+   padding-top:100px;
+   margin-right :20px;
+   
+      }
+      header{
+        background:skyblue;
+        width:100%;
+        height:90px;
+        padding: 10px 10px;
+
+      }
+ 
+     nav{
+    
+font-size : 18px;
+font-family : Monacothin;
+color: white;
+         
+     }
+     nav ul {
+      margin-right:100px;
+      float:right;
+     
+     }
+nav ul li {
+     display: inline-block;
+     margin: 0 5px;
+     line-height:30px;
+  
+  }
+
+  .register {
+            background-color:blue;
+            font-weight:bold;
+  }
+ nav ul li a {
+    text-decoration: none; 
+    font-size:15px;
+    text-transform:uppercase;
+     margin-right: 25px;
+     float:left;
+     color: white;
+
+     }
+
+     nav ul li a:hover{
+     color:green;
+      
+      }
+    nav ul{ 
+     margin-left:50px; 
+   padding:0;
+    text-align:center;
+  }
+ 
+

@@ -1,0 +1,82 @@
+.container2{
+  
+  padding: 40px 40px;
+}
+
+
+.wrapper form button.btn[type="submit" ] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+
+    background-color:#f0be60;
+}
+
+
+.wrapper form button.btn[type="submit"]:focus,
+.wrapper form button.btn[type="submit"]:hover {
+    background-color: #CC8D34;
+}
+
+div.wrapper div{
+  overflow:auto ;
+}
+
+
+.wrapper  input{
+  border-radius: 5px;
+  width: 61%;
+  height: 30px;
+  border:none;
+   padding: 10px
+}
+
+.wrapper  button{
+  border-radius: 5px;
+  width: 63.5%;
+  height: 50px;
+  border:none;
+  
+
+}
+
+
+.wrapper   p {
+  padding: 0px 0px;
+  font-size: 20px;
+}
+
+.wrapper a{
+  text-decoration: none;
+  color:blue;
+}
+.wrapper button.btn2[type="submit" ] {
+    font-weight: bold;
+    color: #eee;
+    text-transform: uppercase;
+     margin-left:50px;
+    background-color:#6060B9;
+}
+
+
+.wrapper .btn2[type="submit"]:focus,
+.wrapper .btn2[type="submit"]:hover {
+    background-color: #47478C;
+}
+
+
+  body{
+  	     background:azure ;
+  }
+
+
+
+
+  div.wrapper form input {
+      width:325px;
+  }
+  div.wrapper  button {
+      width:345px;
+  }
+  
+}
